@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./imagens/fundo_inicio.jpg);
+    background-size: cover;
+}
+
+.comeco{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    border: 0px;
+    font-size: 60px;
+
+}
+.historia{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgba(41, 37, 16, 0.37);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p{
+    margin: 5px 10px 0 10px;
+    text-align: center;
+    align-items: center;
+    font-size:2.5vw;
+    padding-top: 20px;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+button { 
+    margin-top: 50px;
+    width: 20vw;
+    height: 6vh;
+    border-radius: 10px;
+    box-shadow: 10px solid black;
+}

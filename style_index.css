@@ -23,6 +23,8 @@ body{
 h1{
     border: 0px;
     font-size: 60px;
+    color: rgba(5, 1, 15, 0.89);
+    font-family: 'Shadows Into Light Two', cursive;
 
 }
 .historia{
@@ -49,4 +51,10 @@ button {
     height: 6vh;
     border-radius: 10px;
     box-shadow: 10px solid black;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgba(1, 1, 10, 0.925);
 }

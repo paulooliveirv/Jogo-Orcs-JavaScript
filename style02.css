@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 
 body{
-    background-color: blueviolet;
+    background-color: rgb(253, 253, 253);
     width: 100vw;
     height: 100vh;
     background-image: url(./imagens/fundo_pag2.jpg);
     background-size: cover;
 }
+
 h1{
     text-align: center;
     font-family: 'Shadows Into Light Two', cursive;
@@ -15,6 +16,7 @@ h1{
     font-weight: bolder;
 
 }
+
 .container{
     display: flex;
     max-width: 1000px;
@@ -33,8 +35,17 @@ h1{
     margin: 20px 40px 0px 40px;
     border-radius: 10px;
     max-width: 40vw;
-    height: 400px;
+    height: 435px;
 }
+
+.start{
+    text-decoration: none;
+    font-family:'Shadows Into Light Two', cursive;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 0px 90px 0px 90px;
+}
+
 p{
     font-family: 'Shadows Into Light Two', cursive;
     font-weight: bolder;

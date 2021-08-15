@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family:'Shadows Into Light Two', cursive;
+    font-weight: bolder;
+}
+body{
+    height: 30vw;
+    background-color: rgba(0, 0, 0, 0.945);
+}
+
+h2{
+    font-size: 40px;
+    margin-top: 20px;
+    color: rgb(94, 89, 105);
+}
+
+#decisaoTrasgo {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#trasgo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 400px;
+    height: 600px;
+    background-color: #071307c7;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+#containerImg{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+img{
+    height: 150px;
+    width: 160px;
+}
+
+
+p{
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(94, 89, 105);
+}

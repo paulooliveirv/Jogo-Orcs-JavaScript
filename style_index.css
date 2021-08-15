@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 
+
+*{
+    font-family:'Shadows Into Light Two', cursive;
+    font-weight: bolder; 
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -24,7 +30,6 @@ h1{
     border: 0px;
     font-size: 60px;
     color: rgba(5, 1, 15, 0.89);
-    font-family: 'Shadows Into Light Two', cursive;
 
 }
 .historia{
@@ -42,19 +47,19 @@ p{
     align-items: center;
     font-size:2.5vw;
     padding-top: 20px;
-    font-family: 'Shadows Into Light Two', cursive;
 }
 
 button { 
     margin-top: 50px;
-    width: 20vw;
+    width: 15vw;
     height: 6vh;
     border-radius: 10px;
     box-shadow: 10px solid black;
 }
 a{
     text-decoration: none;
-    font-weight: bolder;
     font-size: 20px;
     color: rgba(1, 1, 10, 0.925);
+    padding: 0px 20% 0 20%;
+    cursor: pointer;
 }

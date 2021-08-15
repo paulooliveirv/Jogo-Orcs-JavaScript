@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+
+body{
+    background-color: rgb(253, 253, 253);
+    background-image: url(../imagens/fundo_pag2.jpg);
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.container{
+    display: flex;
+    max-width: 1000px;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+
+}
+
+.caixa{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #1a3f48bb;
+    margin: 20px 40px 0px 40px;
+    border-radius: 10px;
+    max-width: 40vw;
+    height: 460px;
+    text-decoration: none;
+}
+
+.start{
+    text-decoration: none;
+    font-family:'Shadows Into Light Two', cursive;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 0px 90px 0px 90px;
+}
+
+a{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    font-family: 'Shadows Into Light Two', cursive;
+    font-weight: bolder;
+    text-align: center;
+    margin: 10px;
+}
+
+.caixa:hover {
+    color: rgb(241, 235, 235);
+    font-size: 18px;
+  }
+
+
+  @media (max-width: 875px){
+    
+    h1{ font-size: 30px;
+
+    }
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } 
+    p{
+        padding: 8px;
+    }
+    .caixa{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img{
+        width: 180px;
+        height: 160px;
+    };
+}

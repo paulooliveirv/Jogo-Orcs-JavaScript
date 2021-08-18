@@ -7,8 +7,9 @@
     font-weight: bolder;
 }
 body{
-    height: 30vw;
-    background-color: rgba(5, 17, 2, 0.904);
+    width: 100vw;
+    height: 100vh;
+    background-color: #0f2b16f3;
 }
 
 h2{
@@ -20,7 +21,7 @@ h2{
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 40px;
+    padding-top: 10%;
 }
 
 #trasgo{
@@ -45,6 +46,9 @@ h2{
     align-items: center;
 }
 
+h2, p {
+    color: rgba(255, 255, 255, 0.849);
+}
 img{
     height: 150px;
     width: 160px;
@@ -53,5 +57,5 @@ img{
 
 p{
     font-size: 20px;
-    padding: 10px;
+    padding: 10px 10px 0 10px;
 }

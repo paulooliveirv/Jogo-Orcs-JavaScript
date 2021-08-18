@@ -7,21 +7,21 @@
     font-weight: bolder;
 }
 body{
-    height: 30vw;
-    background-color: rgba(0, 0, 0, 0.945);
+    width: 100vw;
+    height: 100vh;
+    background-color: #c90e0efa;
 }
 
 h2{
     font-size: 40px;
     margin-top: 20px;
-    color: rgb(94, 89, 105);
 }
 
 #decisaoTrasgo {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 40px;
+    padding-top: 10%;
 }
 
 #trasgo{
@@ -30,7 +30,7 @@ h2{
     flex-wrap: wrap;
     width: 400px;
     height: 600px;
-    background-color: #071307c7;
+    background-color: #f1eae7d8;
     text-align: center;
     border-radius: 10px;
 
@@ -54,6 +54,5 @@ img{
 
 p{
     font-size: 20px;
-    padding: 10px;
-    color: rgb(94, 89, 105);
+    padding: 10px 10px 0 10px;
 }

@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
 
+
 body{
-    background-color: rgb(253, 253, 253);
+    margin: 0;
+    padding: 0;
+}
+
+body{
     background-image: url(../imagens/fundo_pag2.jpg);
     background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
 h1{
@@ -12,6 +19,9 @@ h1{
     color: white;
     font-size: 40px;
     font-weight: bolder;
+    margin: 0px;
+    padding-top: 8%;
+
 
 }
 
@@ -20,6 +30,7 @@ h1{
     max-width: 1000px;
     justify-content:space-between;
     align-items: center;
+    justify-content: center;
     margin: 0 auto;
     
 
@@ -32,8 +43,8 @@ h1{
     background-color: #1a3f48bb;
     margin: 20px 40px 0px 40px;
     border-radius: 10px;
-    max-width: 40vw;
-    height: 460px;
+    max-width: 60vw;
+    height: 500px;
     text-decoration: none;
 }
 
@@ -51,7 +62,7 @@ a{
     font-family: 'Shadows Into Light Two', cursive;
     font-weight: bolder;
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 p{
@@ -68,6 +79,10 @@ p{
 
 
   @media (max-width: 875px){
+
+    body{
+        background-color: black;
+    }
     
     h1{ font-size: 30px;
 

@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(180deg, #ff81ff 0, #fd74ff 16.67%, #c465ff 33.33%, #8953f2 50%, #4e40cb 66.67%, #0030a7 83.33%, #002286 100%);
+}
+
+.containerCentro{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding-top: 80px;
+}
+h1, p{
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: initial;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+p{
+    margin-top: 20px;
+    font-size: 40px;
+}

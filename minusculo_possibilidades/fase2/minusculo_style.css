@@ -9,7 +9,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-color: #7b3d0eaf;
+    background-color: #0f2b16f3;
 }
 
 h2{
@@ -17,19 +17,19 @@ h2{
     margin-top: 20px;
 }
 
-#decisaoMinusculo {
+#decisaoTrasgo {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
-#minusculo{
+#trasgo{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     width: 400px;
-    height: 700px;
+    height: 600px;
     background-color: #1d0e0573;
     text-align: center;
     border-radius: 10px;
@@ -46,6 +46,9 @@ h2{
     align-items: center;
 }
 
+h2, p {
+    color: rgba(255, 255, 255, 0.849);
+}
 img{
     height: 150px;
     width: 160px;
